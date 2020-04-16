@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+    AWS_BUCKET: udagramudacity
+    AWS_PROFILE: default
+    AWS_REGION: us-east-2
+    JWT_SECRET: hello
+    POSTGRESS_DB: udagramudacity
+    POSTGRESS_HOST: udagramudacity.ciabxseebyyf.us-east-2.rds.amazonaws.com
+    POSTGRESS_USERNAME: udagramudacity
+    POSTGRESS_PASSWORD: udagramudacity
+    URL: http://localhost:8100
+metadata:
+    name: env-config
